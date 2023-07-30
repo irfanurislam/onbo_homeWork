@@ -1,0 +1,106 @@
+/* General styles for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Weeks container styles */
+.weeksContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Individual week styles */
+.week {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.week h3 {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.week ul {
+  margin: 0;
+  padding: 0;
+}
+
+.week li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+/* Add a week button styles */
+.addWeekBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.addWeekBtn:hover {
+  background-color: #0056b3;
+}
+
+/* Popup styles */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.popup form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.popup form input[type='number'],
+.popup form input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.popup form button[type='submit'] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.popup form button[type='submit']:hover {
+  background-color: #0056b3;
+}
